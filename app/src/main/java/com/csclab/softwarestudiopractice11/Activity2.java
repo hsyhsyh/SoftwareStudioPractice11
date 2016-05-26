@@ -53,7 +53,7 @@ public class Activity2 extends Activity{
 
         @Override
         public boolean onTouch(View v, MotionEvent event) {
-            switch(event.getAction()){
+            switch(event.getAction()){//
                 case MotionEvent.ACTION_DOWN: //ACTION_DOWN
                     x=event.getX();
                     y=event.getY();
