@@ -56,7 +56,7 @@ public class Activity2 extends Activity{
             switch(event.getAction()){
                 case MotionEvent.ACTION_DOWN: //ACTION_DOWN
                     x=event.getX();
-                    y=event.getY();//
+                    y=event.getY();
 
                     break;
                 case MotionEvent.ACTION_MOVE: //ACTION_MOVE
